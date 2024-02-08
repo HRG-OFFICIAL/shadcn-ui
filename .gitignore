@@ -1,0 +1,16 @@
+# This .gitignore file will prevent Git from tracking this directory and its contents.
+# It ensures repository is clean, reduce its size, and ensure that dependencies can be managed effectively in different development environments.
+
+# Ignore node_modules directory - we can run `npm install` to install the dependencies specified in package.json, which will recreate the node_modules directory locally.
+node_modules/
+
+# Ignore log files and other generated files
+*.log
+npm-debug.log*
+
+# Ignore environment-specific files
+.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
